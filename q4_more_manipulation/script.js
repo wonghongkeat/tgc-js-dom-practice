@@ -1,30 +1,30 @@
-// PLACE YOUR CODE HERE
-<<<<<<< HEAD
+let header = document.querySelector("h1");
+header.style.color = "green";
 
-// REPLACE THE NULL ON EACH LINE BELOW WITH YOUR ANSWER
-// DO NOT CHANGE THE VARIABLE NAMES
+let finished = document.querySelector("li.finished");
+finished.innerText = "Repay credit card debt";
 
-// Q1 - select the first <h2> element in the document
-let header2 = null;
+let urgent = document.querySelector("li#urgent");
+urgent.style.borderColor = "black";
+urgent.style.borderWidth = "2px";
 
-// Q2 - select the first element with the class "highlight"
-let highlight = null;
+let emphasis = document.querySelector(".emphasis");
+emphasis.style.textDecoration = "underline";
 
-// Q3 - select the first <span class="highlight"> in the document
-let spanHighlight = null;
+let Pemphasis = document.querySelector("p.emphasis");
+Pemphasis.style.background = "orange";
+Pemphasis.style.fontSize = "32px";
+Pemphasis.style.lineHeight = "24px";
 
-// Q4 - select the first element that has the class 'finished'
-let finished= null;
+let todo = document.querySelector("li#urgent span.todo");
+todo.style.background = "yellow";
 
-// Q5 - select the first <p> element in the document
-let firstParagraph=null;
+let h2 = document.querySelector("h2");
+let span = document.createElement("span");
+span.setAttribute("class", "greetings");
+span.innerHTML = "About Us";
+h2.innerHTML = "";
+h2.appendChild(span);
 
-// Q6 - select the first <p class="emphasis"> in the document
-let emphasisParagraph=null;
-
-// LEAVE THE BELOW ALONE! DON'T TOUCH
-try {
-   module.exports = exports = {header2, highlight, finished, firstParagraph, emphasisParagraph};
-} catch (e) {}
-=======
->>>>>>> solutions
+//or 
+h2.innerHTML = "<span class="greetings">About Us</span>";
